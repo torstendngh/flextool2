@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+:root {
+  --main-bg: #131313;
+
+  --window-bg: #1E1E1E;
+  --visualization-bg: #131313;
+
+  --switch-bg: #131313;
+  --switch-fg: #8C8E94;
+  --switch-bg-hover: #2F2F2F;
+  --switch-fg-hover: #ffffff;
+  --switch-name: #8C8E94;
+  --switch-name-hover: #ffffff;
+  --switch-enabled-bg: #1E1E1E;
+  --switch-enabled-fg: #7C4DFF;
+  --button-bg: #7C4DFF;
+  --button-fg: #ffffff;
+
+  --button-add-favorite-bg: #1E1E1E;
+  --button-add-favorite-fg: #7C4DFF;
+  --button-add-favorite-bg-hover: #2F2F2F;
+
+  --template-border: #1E1E1E;
+  --template-border-hover: #2F2F2F;
+
+  --tooltip-bg: #a9abb489;
+  --tooltip-fg: #cbcdd3;
+
+  --div-1: #FF5722;
+  --div-2: #F44336;
+  --div-3: #E91E63;
+  --div-4: #9C27B0;
+  --div-5: #7C4DFF;
+  --div-fg: #ffffff;
+}
