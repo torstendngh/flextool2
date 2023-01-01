@@ -1,6 +1,4 @@
 <script>
-  import './style.css'
-
   import {
     beforeUpdate,
     createEventDispatcher,

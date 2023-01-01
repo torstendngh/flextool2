@@ -1,5 +1,5 @@
 <script>
-  import Icon from '../icon.svelte';
+  import Icon from './icon.svelte';
   import './style.css'
   import Switch from './switch.svelte';
   import SwitchOption from './switchOption.svelte';
@@ -30,6 +30,10 @@
     navigator.clipboard.writeText(output);
   }
 </script>
+
+<svelte:head>
+	<title>FlexTool v2</title>
+</svelte:head>
 
 <div class="background">
   <div class="container">
@@ -122,7 +126,7 @@
 
         <button class="bigButton" on:click={copyToClipboar}>
           <Icon name="code"/>
-          Copy Code
+          Copy to Clipboard
         </button>
       </div>
     </div>
@@ -203,6 +207,9 @@
     cursor: pointer;
     gap: 4px;
     position: relative;
+  }
+  .bigButton:hover {
+    background-color: var(--button-bg-hover);
   }
   .favorites-container {
     display: flex;

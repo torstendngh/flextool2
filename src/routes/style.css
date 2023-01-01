@@ -19,12 +19,13 @@
   --switch-name: #8C8E94;
   --switch-name-hover: #ffffff;
   --switch-enabled-bg: #1E1E1E;
-  --switch-enabled-fg: #7C4DFF;
-  --button-bg: #7C4DFF;
+  --switch-enabled-fg: #4d9aff;
+  --button-bg: #4d9aff;
+  --button-bg-hover: #437cc7;
   --button-fg: #ffffff;
 
   --button-add-favorite-bg: #1E1E1E;
-  --button-add-favorite-fg: #7C4DFF;
+  --button-add-favorite-fg: #4d9aff;
   --button-add-favorite-bg-hover: #2F2F2F;
 
   --template-border: #1E1E1E;

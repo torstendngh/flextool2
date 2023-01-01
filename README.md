@@ -1,38 +1,38 @@
-# create-svelte
+# 💪💻 FlexTool v2
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## 🔥 Minimal tool to quickly configure CSS Flexbox
 
-## Creating a project
+> 🔗➡️👉 [FlexTool v2](https://torstendngh.github.io/flextool2/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🧑‍💻 Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Visually set the most important flexbox options
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- flex-direction
+- align-items
+- justify-content
+- flex-wrap
 
-## Developing
+### Cool additions:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Doesn't copy default values to clipboard
+- Save favorites and quickly copy them to the clipboard (WIP)
+- Dark interface
 
-```bash
-npm run dev
+## 🏗️ Built with
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Svelte
+- Vite
+- Github Pages
 
-## Building
+## 🏗️ TODO
 
-To create a production version of your app:
+- Save favorites to local storage
+- Notification when something is copied to clipboard
+- Testing
+- Tidy up switch generation
+- Light theme
 
-```bash
-npm run build
-```
+## 🪲 Bugs
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Favorites spill over and don't scroll if container is full
